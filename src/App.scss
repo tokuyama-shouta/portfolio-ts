@@ -6,27 +6,28 @@ $marginAdj: 0 auto;
 .header {
   width: $maxWidth;
   height: $headerHeight;
-  margin-bottom: 80px;
+  margin: 50px 0;
+  
   .header-inner {
     width: $innerWidth;
     margin: $marginAdj;
     height: $headerHeight;
     background-color: #fff;
-    h1 {
+    a{
       color: black;
-      padding-top: 30px;
+      font-size: 1.5rem;
     }
     nav ul {
       list-style: none;
       display: flex;
       justify-content: flex-end;
       li {
-        padding: 16px;
+        margin: 16px;
         color: black;
-        margin-top: -40px;
-        font-size: 20px;
+        // margin-top: -30px;
+        font-size: 16px;
         &:hover {
-          border-bottom: 2px solid #333;
+          border-bottom: 2px solid #000;
           cursor: pointer;
         }
       }
@@ -42,16 +43,39 @@ $marginAdj: 0 auto;
   position: relative;
   h2 {
     color: #fff;
-    font-size: 3rem;
+    font-size: 2.5rem;
     position: absolute;
-    top: 35%;
-    right: 15%;
+    top: 25%;
+    left: 10%;
   }
   .button{
     position:absolute;
-    bottom: 25%;
-    right: 35%;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
     width: 250px;
     height: 50px;
+  }
+  h3{
+    color: #fff;
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 25%;
+    right: 10%;
+  }
+}
+.main-yajirusi{
+  margin: $marginAdj;
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+  img{
+    width: 80px;
+    height: 80px;
+    animation: key1 .3s ease infinite alternate;
+  }
+  @keyframes key1{
+    0% {transform: translateY(0px);}
+    100% {transform: translateY(-5px);}
   }
 }
