@@ -1,25 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Button from '@material-ui/core/Button';
 
 const App:React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <React.Fragment>
+      <header className="header">
+        <div className="header-inner">
+          <h1>Tokuyama Shouta<br/>Portfolio</h1>
+          <nav>
+            <ul>
+              <li>About</li>
+              <li>Skill</li>
+              <li>Portfolio</li>
+              <li>Contact</li>
+            </ul>
+          </nav>
+        </div>
       </header>
-    </div>
+      <main>
+        <div className="main-wrapper">
+          <h2>Welcome to My Portfolio</h2>
+          <Button variant="contained" color="primary" className="button">
+            Who's ME?
+          </Button>
+        </div>
+      </main>
+      <footer></footer>
+    </React.Fragment>
   );
 }
 
