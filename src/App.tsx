@@ -3,6 +3,7 @@ import './App.scss';
 import Button from '@material-ui/core/Button';
 import Yajirushi from './img/sita.png'
 import Prf from './img/prf.jpg'
+import Skill from './Skill'
 
 const App:React.FC = () => {
   return (
@@ -59,6 +60,7 @@ const App:React.FC = () => {
             <p>私は実務未経験ですが、学習意欲には自信があります。</p>
             <p>逸早く貢献できるように頑張りますので、よろしくお願い致します。</p>
           </div>
+          <Skill/>
         </div>
       </main>
       <footer></footer>
