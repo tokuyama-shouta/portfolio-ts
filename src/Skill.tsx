@@ -18,28 +18,31 @@ export default function ListDividers() {
   const classes = useStyles();
 
   return (
-    <List component="nav" className={classes.root} aria-label="mailbox folders">
-      <ListItem button>
-        <ListItemText primary="フロントエンド"/>
-        <pre>
-           HTML   CSS   Scss/Sass   Material-UI   JavaScript   TypeScript   jQuery   React   Next.js
-        </pre>
-      </ListItem>
-      <Divider />
-      <ListItem button divider>
-        <ListItemText primary="バックエンド" />
-        <pre>
-          PHP
-        </pre>
-      </ListItem>
-      <ListItem button>
-        <ListItemText primary="ツール etc..." />
-        <pre>
-          Git/GitHub Firebase Slack MacOS
-        </pre>
-      </ListItem>
-      <Divider light />
-      
-    </List>
+    <div className="skill-box">
+      <h2  className="skill">Skill</h2>
+      <List component="nav" className={classes.root} aria-label="mailbox folders">
+        <ListItem button>
+          <ListItemText primary="フロントエンド"/>
+          <pre>
+              HTML   CSS   Scss/Sass   Material-UI   JavaScript   TypeScript   jQuery   React   Next.js
+          </pre>
+        </ListItem>
+        <Divider />
+        <ListItem button divider>
+          <ListItemText primary="バックエンド" />
+          <pre>
+            PHP
+          </pre>
+        </ListItem>
+        <ListItem button>
+          <ListItemText primary="ツール etc..." />
+          <pre>
+            Git/GitHub Firebase Slack MacOS
+          </pre>
+        </ListItem>
+        <Divider light />
+        
+      </List>
+    </div>
   );
 }

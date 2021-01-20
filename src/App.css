@@ -118,3 +118,14 @@
   letter-spacing: 4px;
   margin-bottom: 12px;
 }
+
+.skill-box {
+  width: 1200px;
+  margin: 100px 0 200px;
+}
+
+.skill-box .skill {
+  border-bottom: 2px solid #eee;
+  font-size: 2rem;
+  margin-bottom: 100px;
+}
