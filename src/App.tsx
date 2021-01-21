@@ -4,10 +4,11 @@ import Button from '@material-ui/core/Button';
 import Yajirushi from './img/sita.png'
 import Prf from './img/prf.jpg'
 import Skill from './Skill'
+import Contact from './Contact'
 
 const App:React.FC = () => {
   return (
-    <React.Fragment>
+    <>
       <header className="header">
         <div className="header-inner">
           {/* eslint-disable-next-line */}
@@ -61,10 +62,26 @@ const App:React.FC = () => {
             <p>逸早く貢献できるように頑張りますので、よろしくお願い致します。</p>
           </div>
           <Skill/>
+          <div className="portfolio-wrapper">
+            <h2>Portfolio</h2>
+            <div className="portfolio-box-container">
+              <div className="portfolio-box"></div>
+              <div className="portfolio-box"></div>
+              <div className="portfolio-box"></div>
+              <div className="portfolio-box"></div>
+              <div className="portfolio-box"></div>
+              <div className="portfolio-box"></div>
+              <div className="portfolio-box"></div>
+              <div className="portfolio-box"></div>
+              <div className="portfolio-box"></div>
+            </div>
+          </div>
+
         </div>
+        <Contact/>
       </main>
       <footer></footer>
-    </React.Fragment>
+    </>
   );
 }
 

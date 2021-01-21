@@ -121,11 +121,53 @@
 
 .skill-box {
   width: 1200px;
-  margin: 100px 0 200px;
+  margin: 100px 0 300px;
 }
 
 .skill-box .skill {
   border-bottom: 2px solid #eee;
   font-size: 2rem;
   margin-bottom: 100px;
+}
+
+.portfolio-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.portfolio-wrapper .portfolio-box-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+
+.portfolio-wrapper .portfolio-box-container .portfolio-box {
+  width: 380px;
+  height: 380px;
+  margin: 10px;
+  background-color: #ccc;
+}
+
+.contact-box {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 300px;
+}
+
+.contact-box h2 {
+  border-bottom: 2px solid #eee;
+  font-size: 2rem;
+  margin-bottom: 100px;
+}
+
+.contact-button-box {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.contact-button-box .contact-button {
+  width: 250px;
+  height: 50px;
 }
