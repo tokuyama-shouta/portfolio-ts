@@ -5,6 +5,9 @@ import Yajirushi from './img/sita.png'
 import Prf from './img/prf.jpg'
 import Skill from './Skill'
 import Contact from './Contact'
+import InstagramIcon from '@material-ui/icons/Instagram';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 const App:React.FC = () => {
   return (
@@ -80,7 +83,24 @@ const App:React.FC = () => {
         </div>
         <Contact/>
       </main>
-      <footer></footer>
+      <footer className="footer">
+        <div className="footer-wrapper">
+          <ul>
+            {/* eslint-disable-next-line */}
+            <li><a><TwitterIcon style={{ fontSize: 40 }}/></a></li>
+            {/* eslint-disable-next-line */}
+            <li><a><InstagramIcon style={{ fontSize: 40 }}/></a></li>
+            {/* eslint-disable-next-line */}
+            <li><a><GitHubIcon style={{ fontSize: 40 }}/></a></li>
+            <li>
+              <Button variant="contained" color="secondary" className="button">
+                top
+              </Button>
+            </li>
+          </ul>
+
+        </div>
+      </footer>
     </>
   );
 }

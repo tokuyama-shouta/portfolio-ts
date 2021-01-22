@@ -154,12 +154,14 @@
   width: 1200px;
   margin: 0 auto;
   margin-bottom: 300px;
+  text-align: center;
 }
 
 .contact-box h2 {
   border-bottom: 2px solid #eee;
   font-size: 2rem;
   margin-bottom: 100px;
+  text-align: left;
 }
 
 .contact-button-box {
@@ -170,4 +172,27 @@
 .contact-button-box .contact-button {
   width: 250px;
   height: 50px;
+}
+
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: #f2f2f2;
+}
+
+.footer .footer-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer .footer-wrapper ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.footer .footer-wrapper ul li {
+  padding: 16px;
+  margin-top: 30px;
+  cursor: pointer;
 }

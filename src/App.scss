@@ -8,6 +8,7 @@ $marginAdj: 0 auto;
   height: $headerHeight;
   margin: 50px 0;
   
+  
   .header-inner {
     width: $innerWidth;
     margin: $marginAdj;
@@ -140,10 +141,12 @@ $marginAdj: 0 auto;
   width: $innerWidth;
   margin: $marginAdj;
   margin-bottom: 300px;
+  text-align: center;
   h2{
     border-bottom: 2px solid #eee;
     font-size: 2rem;
     margin-bottom: 100px;
+    text-align: left;
   }
 }
 
@@ -153,6 +156,28 @@ $marginAdj: 0 auto;
   .contact-button{
     width: 250px;
     height: 50px;
+  }
+}
+
+.footer{
+  width: $maxWidth;
+  height: 300px;
+  background-color: #f2f2f2;
+  .footer-wrapper{
+    width: $innerWidth;
+    margin: $marginAdj;
+    ul{
+      display: flex;
+      justify-content: flex-end;
+      list-style: none;
+      
+      li{
+        padding: 16px;
+        margin-top: 30px;
+        cursor: pointer;
+      }
+    }
+    
   }
 }
 
