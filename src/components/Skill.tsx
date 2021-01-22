@@ -19,7 +19,7 @@ export default function ListDividers() {
 
   return (
     <div className="skill-box">
-      <h2  className="skill">Skill</h2>
+      <h2  className="skill" id="skill">Skill</h2>
       <List component="nav" className={classes.root} aria-label="mailbox folders">
         <ListItem button>
           <ListItemText primary="フロントエンド"/>

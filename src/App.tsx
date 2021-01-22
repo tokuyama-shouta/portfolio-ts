@@ -8,8 +8,16 @@ import Contact from './components/Contact'
 import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import { Link, animateScroll as scroll } from 'react-scroll';
+
+
 
 const App:React.FC = () => {
+
+  const scrollToTop = () => {
+    scroll.scrollToTop(); 
+  };
+
   return (
     <>
       <header className="header">
@@ -17,17 +25,49 @@ const App:React.FC = () => {
           {/* eslint-disable-next-line */}
           <nav>
             <ul>
-              <li>About</li>
-              <li>Skill</li>
-              <li>Portfolio</li>
               <li>
-                <Button 
-                  variant="contained" 
-                  color="secondary" 
-                  className="top-button"
+                <Link 
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="skill"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Skill
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="portfolio"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Portfolio
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
                 >
                   Contact
-                </Button>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -46,7 +86,7 @@ const App:React.FC = () => {
           <img src={Yajirushi} alt="矢印"/>
         </div>
         <div className="about-wrapper">
-          <h2>About</h2>
+          <h2 id="about">About</h2>
           <div className="img-box">
             <img src={Prf} alt="徳山翔太"/>
             <p>はじめまして。徳山 翔太（とくやま しょうた）と申します。</p>
@@ -74,7 +114,7 @@ const App:React.FC = () => {
           </div>
           <Skill/>
           <div className="portfolio-wrapper">
-            <h2>Portfolio</h2>
+            <h2 id="portfolio">Portfolio</h2>
             <div className="portfolio-box-container">
               <div className="portfolio-box"></div>
               <div className="portfolio-box"></div>
@@ -116,7 +156,11 @@ const App:React.FC = () => {
               </a>
             </li>
             <li>
-              <Button variant="contained" color="secondary">
+              <Button 
+                variant="contained" 
+                color="secondary"
+                onClick={scrollToTop}
+              >
                 TOP
               </Button>
             </li>

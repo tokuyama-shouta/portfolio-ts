@@ -26,7 +26,7 @@ export default function MultilineTextFields() {
 
   return (
     <div className="contact-box">
-      <h2>Contact</h2>
+      <h2 id="contact">Contact</h2>
       <form className={classes.root} noValidate autoComplete="off">
         <div >
           <TextField
