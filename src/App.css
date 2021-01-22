@@ -34,6 +34,11 @@
   opacity: 0.6;
 }
 
+.header .header-inner nav ul li:last-child {
+  border: none;
+  opacity: 1;
+}
+
 .main-wrapper {
   width: 1200px;
   margin: 0 auto;
@@ -46,8 +51,8 @@
   color: #fff;
   font-size: 2.5rem;
   position: absolute;
-  top: 25%;
-  left: 15%;
+  top: 30%;
+  right: 15%;
 }
 
 .main-wrapper .button {
@@ -63,8 +68,16 @@
   color: #fff;
   font-size: 2.5rem;
   position: absolute;
-  bottom: 50%;
-  right: 20%;
+  bottom: 45%;
+  right: 5.7%;
+}
+
+.main-wrapper h4 {
+  color: #fff;
+  font-size: 2.5rem;
+  position: absolute;
+  bottom: 30%;
+  right: 26.5%;
 }
 
 .main-yajirusi {

@@ -31,10 +31,16 @@ $marginAdj: 0 auto;
           cursor: pointer;
           opacity: 0.6;
         }
+        &:last-child{
+          border:none;
+          opacity: 1;
+        }
       }
     }
   }
 }
+
+
 
 .main-wrapper {
   width: $innerWidth;
@@ -46,8 +52,8 @@ $marginAdj: 0 auto;
     color: #fff;
     font-size: 2.5rem;
     position: absolute;
-    top: 25%;
-    left: 15%;
+    top: 30%;
+    right: 15%;
   }
   .button{
     position:absolute;
@@ -61,8 +67,16 @@ $marginAdj: 0 auto;
     color: #fff;
     font-size: 2.5rem;
     position: absolute;
-    bottom: 50%;
-    right: 20%;
+    bottom: 45%;
+    right: 5.7%;
+  }
+  h4{
+    color: #fff;
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 30%;
+    right: 26.5%;
+
   }
 }
 .main-yajirusi{

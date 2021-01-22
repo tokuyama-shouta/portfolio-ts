@@ -15,13 +15,20 @@ const App:React.FC = () => {
       <header className="header">
         <div className="header-inner">
           {/* eslint-disable-next-line */}
-          <a>Tokuyama Shouta Portfolio</a>
           <nav>
             <ul>
               <li>About</li>
               <li>Skill</li>
               <li>Portfolio</li>
-              <li>Contact</li>
+              <li>
+                <Button 
+                  variant="contained" 
+                  color="secondary" 
+                  className="top-button"
+                >
+                  Contact
+                </Button>
+              </li>
             </ul>
           </nav>
         </div>
@@ -29,10 +36,11 @@ const App:React.FC = () => {
       <main>
         <div className="main-wrapper">
           <h2>Welcome to My Portfolio</h2>
-          <Button variant="contained" color="secondary" className="button">
+          {/* <Button variant="contained" color="secondary" className="button">
             Contact
-          </Button>
-          <h3>Engineer Beginner</h3>
+          </Button> */}
+          <h3>My name is Tokuyama Shouta</h3>
+          <h4>Engineer Beginner</h4>
         </div>
         <div className="main-yajirusi">
           <img src={Yajirushi} alt="矢印"/>
