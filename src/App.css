@@ -196,3 +196,7 @@
   margin-top: 30px;
   cursor: pointer;
 }
+
+.footer .footer-wrapper ul li a {
+  color: black;
+}

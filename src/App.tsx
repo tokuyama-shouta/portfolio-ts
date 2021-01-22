@@ -3,8 +3,8 @@ import './App.scss';
 import Button from '@material-ui/core/Button';
 import Yajirushi from './img/sita.png'
 import Prf from './img/prf.jpg'
-import Skill from './Skill'
-import Contact from './Contact'
+import Skill from './components/Skill'
+import Contact from './components/Contact'
 import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -87,14 +87,29 @@ const App:React.FC = () => {
         <div className="footer-wrapper">
           <ul>
             {/* eslint-disable-next-line */}
-            <li><a><TwitterIcon style={{ fontSize: 40 }}/></a></li>
-            {/* eslint-disable-next-line */}
-            <li><a><InstagramIcon style={{ fontSize: 40 }}/></a></li>
-            {/* eslint-disable-next-line */}
-            <li><a><GitHubIcon style={{ fontSize: 40 }}/></a></li>
             <li>
-              <Button variant="contained" color="secondary" className="button">
-                top
+              {/* eslint-disable-next-line */}
+              <a href="https://twitter.com/tststs1031" target="_blank">
+                <TwitterIcon style={{ fontSize: 40 }}/>
+              </a>
+            </li>
+            {/* eslint-disable-next-line */}
+            <li>
+              {/* eslint-disable-next-line */}
+              <a href="https://www.instagram.com/tokuyama.shouta/" target="_blank">
+                <InstagramIcon style={{ fontSize: 40 }}/>
+              </a>
+            </li>
+            {/* eslint-disable-next-line */}
+            <li>
+              {/* eslint-disable-next-line */}
+              <a href="https://github.com/tokuyama-shouta" target="_blank">
+                <GitHubIcon style={{ fontSize: 40 }}/>
+              </a>
+            </li>
+            <li>
+              <Button variant="contained" color="secondary">
+                TOP
               </Button>
             </li>
           </ul>
