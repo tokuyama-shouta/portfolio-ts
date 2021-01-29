@@ -120,7 +120,29 @@ const App:React.FC = () => {
             <p>私は実務未経験ですが、学習意欲には自信があります。</p>
             <p>逸早く貢献できるように頑張りますので、よろしくお願い致します。</p>
           </div>
+          <div className="main-yajirusi">
+            <Link 
+              to="skill"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <img src={Yajirushi} alt="矢印"/>   
+            </Link>
+          </div>
           <Skill/>
+          <div className="main-yajirusi">
+            <Link 
+              to="portfolio"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <img src={Yajirushi} alt="矢印"/>   
+            </Link>
+          </div>
           <div className="portfolio-wrapper">
             <h2 id="portfolio">Portfolio</h2>
             <div className="portfolio-box-container">
@@ -137,6 +159,17 @@ const App:React.FC = () => {
           </div>
 
         </div>
+        <div className="main-yajirusi">
+            <Link 
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <img src={Yajirushi} alt="矢印"/>   
+            </Link>
+          </div>
         <Contact/>
       </main>
       <footer className="footer">

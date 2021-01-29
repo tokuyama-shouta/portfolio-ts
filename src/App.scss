@@ -80,8 +80,8 @@ $marginAdj: 0 auto;
 }
 .main-yajirusi{
   margin: $marginAdj;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   margin-top: 50px;
   text-align: center;
   cursor: pointer;
@@ -107,7 +107,7 @@ $marginAdj: 0 auto;
   .img-box{
     text-align: center;
     margin-top: 100px;
-    margin-bottom: 300px;
+    margin-bottom: 200px;
     img{
       width: 300px;
       height: 300px;
@@ -154,7 +154,7 @@ $marginAdj: 0 auto;
 .contact-box{
   width: $innerWidth;
   margin: $marginAdj;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
   text-align: center;
   h2{
     border-bottom: 2px solid #eee;

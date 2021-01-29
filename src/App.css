@@ -79,8 +79,8 @@
 
 .main-yajirusi {
   margin: 0 auto;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   margin-top: 50px;
   text-align: center;
   cursor: pointer;
@@ -115,7 +115,7 @@
 .about-wrapper .img-box {
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 300px;
+  margin-bottom: 200px;
 }
 
 .about-wrapper .img-box img {
@@ -164,7 +164,7 @@
 .contact-box {
   width: 1200px;
   margin: 0 auto;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
   text-align: center;
 }
 
