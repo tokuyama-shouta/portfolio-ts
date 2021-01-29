@@ -83,7 +83,15 @@ const App:React.FC = () => {
           <h4>Engineer Beginner</h4>
         </div>
         <div className="main-yajirusi">
-          <img src={Yajirushi} alt="矢印"/>
+          <Link 
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <img src={Yajirushi} alt="矢印"/>   
+          </Link>
         </div>
         <div className="about-wrapper">
           <h2 id="about">About</h2>
