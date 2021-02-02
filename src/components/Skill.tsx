@@ -37,7 +37,7 @@ export default function ListDividers() {
         <ListItem button>
           <ListItemText primary="ツール etc..." />
           <pre>
-            Git/GitHub Firebase Slack MacOS
+            Git/GitHub Firebase Slack MacOS Windows
           </pre>
         </ListItem>
         <Divider light />
