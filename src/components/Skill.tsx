@@ -31,7 +31,7 @@ export default function ListDividers() {
         <ListItem button divider>
           <ListItemText primary="バックエンド" />
           <pre>
-            PHP
+            PHP Laravel
           </pre>
         </ListItem>
         <ListItem button>
