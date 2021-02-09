@@ -38,6 +38,7 @@ export default function ListDividers() {
           <ListItemText primary="ツール etc..." />
           <pre>
             Git/GitHub WordPress Firebase Slack MacOS Windows
+            Photoshop Illustrator Dreamweaver
           </pre>
         </ListItem>
         <Divider light />
