@@ -24,7 +24,7 @@ export default function ListDividers() {
         <ListItem button>
           <ListItemText primary="フロントエンド"/>
           <pre>
-              HTML   CSS   Scss/Sass   Material-UI   JavaScript   TypeScript   jQuery   React   Next.js
+              HTML   CSS   Scss/Sass   Material-UI   JavaScript   TypeScript   jQuery   React Redux  Next.js
           </pre>
         </ListItem>
         <Divider />
